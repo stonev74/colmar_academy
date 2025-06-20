@@ -1,0 +1,46 @@
+header {
+    display: flex;
+    height: 64px;
+    align-items: center;
+}
+
+header h3 {
+    margin-right: auto;
+    margin-left: 24px;
+}
+
+.header-links {
+    margin-right: 24px;
+    display: flex;
+    gap: 13px;
+}
+
+.learn-something, .main, .main-small, .main-large {
+    display: flex;
+}
+
+.learn-something img, .main img {
+    width: 60%;
+    margin: 32px 24px;
+}
+
+.main-small, .main-large {
+    flex-direction: column;
+}
+
+.main-large h1, .main-large p {
+    width: 60%;
+}
+
+.main-small img {
+    width: 35%;
+    height: auto;
+}
+
+.main-small div {
+    width: 40%;
+}
+
+.start_learning h1 {
+    margin: 32px auto;
+}
